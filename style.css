@@ -1,0 +1,125 @@
+*{
+    font-family:' El Messiri', sans-serif    ;
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    height: 650px;
+    background: linear-gradient(rgba(0,0,0,0.1), #1eb300) , url(nature-landscape-mist-forest-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+.logo{
+    width: 140px;
+    margin-top: 20px
+}
+.banner-text{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 80px;
+}
+.banner-text p{
+    font-size: 30px;
+}
+.banner-btn{
+    margin: 10px 0px;
+    text-align: center;
+}
+.banner-btn a{
+    width: 200px;
+    text-decoration:none;
+    display: inline-block;
+    padding: 12px 0;
+    color: white;
+    margin: 0 10px;
+    position: relative;
+    border: .5px solid greenyellow;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    background: rgb(4, 185, 58);
+    top: 0;
+    left: 0;
+    position: absolute;    
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a :hover{
+    color: rgb(0, 0, 0)  ;
+}
+.title-text{
+    padding-bottom:  20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.title-text{
+    text-align:center;
+    padding-bottom: 20px;
+    margin-bottom:10px;
+}
+.title-text p{
+    font-size: 40px;
+    color: black;
+}
+.title-text h1{
+    font-size: 30px;
+    color: lightgreen;
+}
+.contents{
+    background: linear-gradient(#28FF5F #1CAF1F);
+    font-weight: normal;
+    color: #36B8ED;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size:16px;
+}
+.features-box{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+    margin: auto;
+}
+.features{
+    flex-basis: 50%;
+}
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{
+    width: 20%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.features span{
+    font-size: 30px;
+    color:#0BB013;
+}
+.features-icon .fas{
+    line-height: 50px;
+    border-radius: 8px;
+    border: 1px solid #2ecc71;
+    width: 50px;
+    height: 50px;
+}
+.ImpactOnEnvironment{
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #28FF5F;
+}
+
+
+   
